@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/app-icon-v4.png" />
+    <link rel="apple-touch-icon" href="/app-icon-v4.png" />
+    <title>가자 — 가는 길 자동추천, 가는 길에 자신감</title>
+    <!--
+      카카오맵 JavaScript SDK.
+      appkey 는 .env 의 VITE_KAKAO_KEY 가 Vite 의 %VITE_*% 치환으로 들어간다.
+      autoload=false 로 두고 앱에서 kakao.maps.load() 로 초기화한다.
+      libraries=services 로 장소검색(Places) 사용.
+    -->
+    <script
+      type="text/javascript"
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=%VITE_KAKAO_KEY%&libraries=services&autoload=false"
+    ></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "hosting": {
+    "public": "frontend/dist",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [{ "source": "**", "destination": "/index.html" }]
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "runtime": "python310",
+      "ignore": ["venv", ".git", "*.pyc", "__pycache__", ".env", ".env.*"]
+    }
+  ]
+}

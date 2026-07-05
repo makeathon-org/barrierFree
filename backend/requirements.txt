@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+osmnx>=1.6
+networkx
+scikit-learn
+google-genai
+python-dotenv

@@ -1,0 +1,18 @@
+# Python
+backend/.venv/
+__pycache__/
+*.pyc
+
+# OSM 그래프 캐시 (최초 실행 시 자동 생성)
+backend/sungshin_walk.graphml
+
+# 대용량 원본 shapefile (경사도 분석은 sungshin_height.json 만 사용)
+backend/data/서울시_경사도/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# 환경변수 (키 포함)
+frontend/.env
+backend/.env
