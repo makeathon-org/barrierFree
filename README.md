@@ -8,6 +8,11 @@
 - **프론트엔드**: React + Vite + 카카오맵 JavaScript SDK
 - **데모 구역**: 성신여대입구역 중심 (37.5925, 127.0163), 반경 800m
 
+
+
+https://github.com/user-attachments/assets/6d28ee6e-f731-4276-b362-9d86efc55d3a
+
+
 ```
 barrierfree/
 ├── backend/
@@ -163,3 +168,4 @@ OSM 태그 → 특성: `highway=steps`→stairs,
 OSM `incline` 태그는 보조로만 사용됩니다(한국 데이터가 희소).
 표고 파일이 없으면 경사 보간은 자동으로 생략됩니다.
 ```
+
