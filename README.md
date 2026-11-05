@@ -23,6 +23,8 @@ barrierfree/
     ├── .env.example
     └── package.json
 ```
+<img width="1369" height="739" alt="메인 화면 - 사용자 유형 선택, 지점 지정, 계단·제보 레이어" src="https://github.com/user-attachments/assets/4603083b-16d2-40e3-be84-2546ac0cd6f4" />
+<img width="2880" height="1524" alt="경사도 오버레이 - 구간별 경사도 4단계 색상 표시" src="https://github.com/user-attachments/assets/c959c7a4-dae8-4374-b0c4-cf1b9e24aa22" />
 
 ---
 
