@@ -130,6 +130,7 @@ npm run dev
 5. **제보 추가** 모드로 지도를 클릭하면 위험 제보를 등록(POST)할 수 있습니다(보라색 마커).
 6. **안내 시작 (시뮬)** 을 누르면 선택한 경로를 따라 마커가 이동하며,
    위험 제보 마커 **30m 이내**에 접근하면 경고 토스트가 뜹니다.
+<img width="1407" height="791" alt="경로추천" src="https://github.com/user-attachments/assets/29e3dea2-f7e4-4a2a-a7d9-f5c1963f622b" />
 
 ---
 
